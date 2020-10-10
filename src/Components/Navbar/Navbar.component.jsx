@@ -7,7 +7,7 @@ import ToggleMode from "../ToggleMode/ToggleMode.component";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
-      <Link className="navbar-brand text-muted" to="/">
+      <Link className="navbar-brand text-muted" to="/Github-Finder">
         <img height="60px" src={logo} alt="Logo" />
       </Link>
       <ToggleMode />

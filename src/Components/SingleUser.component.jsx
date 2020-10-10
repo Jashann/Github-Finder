@@ -26,7 +26,7 @@ function SingleUser() {
         <Link
           id="icon-back-container"
           className="text-muted d-flex align-items-center"
-          to="/"
+          to="/Github-Finder"
         >
           <ion-icon name="arrow-back-circle-outline"></ion-icon>{" "}
           <h3 className="m-0 text-muted">Go Back</h3>

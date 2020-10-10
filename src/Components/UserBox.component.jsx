@@ -20,7 +20,7 @@ export default function UserBox({ user, singleUser }) {
       <h5 className="mt-3 text">{login}</h5>
 
       {!singleUser ? (
-        <Link to={`/user/${login}`} className="btn btn-primary">
+        <Link to={`/Github-Finder/user/${login}`} className="btn btn-primary">
           View Profile
         </Link>
       ) : (

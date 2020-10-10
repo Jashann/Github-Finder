@@ -19,18 +19,18 @@ function App() {
         <div className="App">
           <Navbar />
           <Switch>
-            <Route path="/" exact>
+            <Route path="/Github-Finder" exact>
               <SearchForm />
               <UsersList />
             </Route>
 
-            <Route path="/user/:username" exact>
+            <Route path="/Github-Finder/user/:username" exact>
               <UserContextProvider>
                 <SingleUser />
               </UserContextProvider>
             </Route>
 
-            <Redirect to="/" />
+            <Redirect to="/Github-Finder" />
           </Switch>
         </div>
       </BrowserRouter>
