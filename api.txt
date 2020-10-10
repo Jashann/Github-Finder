@@ -1,0 +1,19 @@
+Search Users
+https://api.github.com/search/users?q=tom
+
+One User
+https://api.github.com/users/tom
+
+Get Repos
+https://api.github.com/users/tom/repos
+
+Both One User And Get Repos urls are in Search Users.
+
+
+Client ID
+583b8471bed1f62710df
+Client Secret
+24ae26fdcaeda1eb027021e5ee40709f0ce1a07a
+
+?
+&client_id=583b8471bed1f62710df&client_secret=24ae26fdcaeda1eb027021e5ee40709f0ce1a07a
