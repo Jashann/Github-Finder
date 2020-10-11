@@ -14,7 +14,7 @@ const SearchForm = () => {
 
   return (
     <div className="search-container">
-      <form onSubmit={handleSumbit} id="search-form" className="container">
+      <form onSubmit={handleSumbit} id="search-form">
         <div className="form-group d-flex justify-content-center align-items-center">
           <input
             className="form-control rounded-pill"
