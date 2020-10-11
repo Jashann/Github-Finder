@@ -189,6 +189,10 @@ p.description {
   border-radius: 500px;
 }
 
+#logo {
+  height: 65px;
+}
+
 @media (max-width: 960px) {
   .users-list {
     grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
@@ -246,6 +250,15 @@ p.description {
       padding: 10px;
       margin: 10px;
     }
+  }
+}
+
+@media (max-width: 540px) {
+  #logo {
+    margin-left: 0px;
+  }
+  .navbar {
+    justify-content: center !important;
   }
 }
 

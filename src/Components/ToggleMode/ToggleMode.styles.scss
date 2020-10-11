@@ -2,8 +2,8 @@
   .switch {
     position: relative;
     display: inline-block;
-    width: 90px;
-    height: 34px;
+    width: 80px;
+    height: 30px;
   }
 
   .switch input {
@@ -26,8 +26,8 @@
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 23px;
+    width: 23px;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -44,9 +44,9 @@
   }
 
   input:checked + .slider:before {
-    -webkit-transform: translateX(55px);
-    -ms-transform: translateX(55px);
-    transform: translateX(55px);
+    -webkit-transform: translateX(48px);
+    -ms-transform: translateX(48px);
+    transform: translateX(48px);
   }
 
   /*------ ADDED CSS ---------*/
@@ -87,4 +87,8 @@
   ion-icon {
     font-size: 23px;
   }
+}
+
+label {
+  margin: 0;
 }
